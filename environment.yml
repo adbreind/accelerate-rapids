@@ -1,0 +1,21 @@
+name: rapids12
+channels:
+  - blazingsql/label/cuda10.0
+  - blazingsql
+  - rapidsai 
+  - nvidia
+  - conda-forge
+  - pytorch
+dependencies:
+  - blazingsql=0.12
+  - cudatoolkit=10.0
+  - cudf=0.12
+  - cuml=0.12
+  - cugraph=0.12
+  - numpy
+  - pandas
+  - scikit-learn
+  - umap-learn
+  - matplotlib
+  - datashader
+  - pytorch
